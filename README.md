@@ -5,7 +5,9 @@ Desenvolvimento de um sistema de aquisição de dados (*datalogger*) para a real
 
 #### **2. Fundamentação Teórica**
 O ensaio de *Coast Down* consiste em registrar a velocidade de um veículo durante a desaceleração livre (com a transmissão desacoplada). A desaceleração é governada pela equação de *Road Load*, uma função quadrática da velocidade que soma as resistências ao movimento:
+
 $RL(v) = A + B \cdot v + C \cdot v^2$
+
 Onde os coeficientes A, B e C representam diferentes componentes da força resistiva. Estes coeficientes são determinados experimentalmente através de uma regressão polinomial aplicada aos dados de velocidade coletados.
 
 #### **3. Requisitos de Sistema**
